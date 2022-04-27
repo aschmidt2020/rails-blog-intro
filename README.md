@@ -1,24 +1,13 @@
 # README
+Ruby Version: 3.1.2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Instructions for use:
+1. Clone or download repository
+2. Run `bundle install` to install requirements
+3. In 'config/database.yml' set up database configurations
+4. Run `rake db:migrate` to migrate databases 
+5. Run `ruby bin/rails server` to start server.
+6. Visit http://localhost:3000/ to see running application.
 
-Things you may want to cover:
+Note: This application created by following tutorial: https://guides.rubyonrails.org/getting_started.html.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

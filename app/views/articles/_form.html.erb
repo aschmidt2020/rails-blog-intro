@@ -14,10 +14,16 @@
       <div><%= message %></div>
     <% end %>
   </div>
+  
+  <div>
+  <%= form.label :status %><br>
+  <%= form.select :status, ['public', 'private', 'archived'], selected: 'public' %>
+</div>
 
   <div>
     <%= form.submit %>
   </div>
 <% end %>
 
-<%# allows you to use same form multiple times %>
+<%# partials --> allow you to use same form multiple times %>
+<%# form_with instantiates form builder %>
